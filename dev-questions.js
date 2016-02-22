@@ -140,21 +140,21 @@ var spiralPrinting = function spiral (matrix) {
   spiral(matrix);
 }
 
-console.log('----------- QUESTION #2 -----------');
+console.log('----------- STRING JUSTIFY -----------');
 justifyText(20, 'The quick brown fox jumps over the lazy dog.');
-console.log('-----------------------------------');
+console.log('--------------------------------------');
 
-console.log('----------- QUESTION #4 -----------');
+console.log('----------- STRING COMPACT -----------');
 stringManipulation('abb cddpddef gh');
-console.log('-----------------------------------');
+console.log('--------------------------------------');
 
-console.log('----------- QUESTION #5 -----------');
-console.log('------- PRINTING 3X3 MATRIX -------');
+console.log('----------- STRING SPIRAL ------------');
+console.log('-------- PRINTING 3X3 MATRIX ---------');
 spiralPrinting([[1,2,3], [4,5,6], [7,8,9]]);
-console.log('-----------------------------------');
-console.log('------- PRINTING 4X4 MATRIX -------');
+console.log('--------------------------------------');
+console.log('-------- PRINTING 4X4 MATRIX ---------');
 spiralPrinting([[1,2,3,4], [5,6,7,8], [9,10,11,12], [13,14,15,16]]);
-console.log('-----------------------------------');
-console.log('------- PRINTING 4X3 MATRIX -------');
+console.log('--------------------------------------');
+console.log('-------- PRINTING 4X3 MATRIX ---------');
 spiralPrinting([[1,2,3,4], [5,6,7,8], [9,10,11,12]]);
-console.log('-----------------------------------');
+console.log('--------------------------------------');
